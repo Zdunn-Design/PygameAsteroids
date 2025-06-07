@@ -1,5 +1,4 @@
 import pygame
-from constants import *
 from circleshape import CircleShape
 
 class Asteroid(CircleShape):
@@ -11,4 +10,3 @@ class Asteroid(CircleShape):
 
     def update(self, dt):
         self.position += self.velocity * dt
-        
